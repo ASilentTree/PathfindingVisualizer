@@ -5,6 +5,6 @@ A path finding Visualizer written in Java. Choose between A* Search and Dijkstra
 
 ## Getting Started:
 - Drag and drop start or end point
-- click "New Maze" to generate a random maze
-- choose a path finding algorithm 
-- click "Start" to start
+- Choose a path finding algorithm 
+- Click "New Maze" to generate a random maze
+- Click "Start" to start
