@@ -175,15 +175,15 @@ public class Controls {
 
         // Set button bounds
         startButton.setBounds((int) (gui.getWidth()*0.02), 15, startButton.getWidth(), startButton.getHeight());
-        clearButton.setBounds((int) (gui.getWidth()*0.12), 15, clearButton.getWidth(), clearButton.getHeight());
-        mazeButton.setBounds((int) (gui.getWidth()*0.27), 15, mazeButton.getWidth(), mazeButton.getHeight());
+        clearButton.setBounds((int) (gui.getWidth()*0.13), 15, clearButton.getWidth(), clearButton.getHeight());
+        mazeButton.setBounds((int) (gui.getWidth()*0.28), 15, mazeButton.getWidth(), mazeButton.getHeight());
 
         // Set check box bounds
-        showSteps.setBounds((int) (gui.getWidth()*0.42), 30, showSteps.getWidth(), showSteps.getHeight());
-        diagonal.setBounds((int) (gui.getWidth()*0.44 + 150) , 30, diagonal.getWidth(), diagonal.getHeight());
+        showSteps.setBounds((int) (gui.getWidth()*0.44), 30, showSteps.getWidth(), showSteps.getHeight());
+        diagonal.setBounds((int) (gui.getWidth()*0.46 + 150) , 30, diagonal.getWidth(), diagonal.getHeight());
 
         // Set slider bounds
-        speedSlider.setBounds((int) (gui.getWidth()*0.68), 33, speedSlider.getWidth(), speedSlider.getHeight());
+        speedSlider.setBounds((int) (gui.getWidth()*0.7), 30, speedSlider.getWidth(), speedSlider.getHeight());
 
         // Set JComboBox bounds
         algorithmBox.setBounds((int) (gui.getWidth()*0.88), 30, algorithmBox.getWidth(), algorithmBox.getHeight());
