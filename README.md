@@ -3,7 +3,8 @@ A path finding Visualizer written in Java. Choose between A* Search and Dijkstra
 
 ![alt text](https://raw.githubusercontent.com/ASilentTree/PathfindingVisualizer/master/pathfindingVisualizer.png)
 
-## How it works:
+## Getting Started:
 - Drag and drop start or end point
-- click "New Maze" to generate a random maze
-- click "Start" to start
+- Choose a path finding algorithm 
+- Click "New Maze" to generate a random maze
+- Click "Start" to start
