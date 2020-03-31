@@ -11,29 +11,6 @@ public class AStar extends PathFinding {
     }
 
     @Override
-    public void setup(Node s, Node e){
-        running = true;
-        startNode = s;
-        endNode = e;
-        parentNode = s;
-        s.setG(0);
-        addClosed(s);
-    }
-
-    @Override
-    public void start(Node s, Node e) {
-        running = true;
-        startNode = s;
-        startNode.setG(0);
-        endNode = e;
-
-        // Adding the starting node to the closed list
-        addClosed(startNode);
-        findPath(startNode);
-        completed = true;
-    }
-
-    @Override
     public void findPath(Node parent) {
         if (diagonal) {
             // Detects and adds one step of nodes to open list
